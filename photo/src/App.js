@@ -1,11 +1,18 @@
-import './App.css';
+// import { routes } from "./Utils/routes";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./Pages/Homepage/Homepage";
+import About from "./Pages/About/About";
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      Hello
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
