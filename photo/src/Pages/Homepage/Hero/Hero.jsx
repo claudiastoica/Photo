@@ -3,7 +3,11 @@ import "./Hero.scss";
 
 import Slider from "react-slick";
 
-import Wedding1 from "../../../assets/Homepage/wedding1.jpg";
+import SliderItem1 from "../../../assets/Homepage/slider-item-1.jpg";
+import SliderItem2 from "../../../assets/Homepage/slider-item-2.jpg";
+import SliderItem3 from "../../../assets/Homepage/slider-item-3.jpg";
+import SliderItem4 from "../../../assets/Homepage/slider-item-4.jpg";
+import SliderItem5 from "../../../assets/Homepage/slider-item-5.jpg";
 
 export default function Hero() {
   const settings = {
@@ -15,24 +19,24 @@ export default function Hero() {
   };
 
   return (
-    <section className="hero-section">
+    <section className="hero-section py-5">
       <div className="main-container">
         <div className="hero-slider">
           <Slider {...settings}>
             <div className="slider-item">
-              <img src={Wedding1} alt="wedding1" className="m-auto h-100" />
+              <img src={SliderItem1} alt="wedding1" className="m-auto h-100" />
             </div>
             <div className="slider-item">
-              <img src={Wedding1} alt="wedding1" className="m-auto h-100" />
+              <img src={SliderItem2} alt="wedding1" className="m-auto h-100" />
             </div>
             <div className="slider-item">
-              <img src={Wedding1} alt="wedding1" className="m-auto h-100" />
+              <img src={SliderItem3} alt="wedding1" className="m-auto h-100" />
             </div>
             <div className="slider-item">
-              <img src={Wedding1} alt="wedding1" className="m-auto h-100" />
+              <img src={SliderItem4} alt="wedding1" className="m-auto h-100" />
             </div>
             <div className="slider-item">
-              <img src={Wedding1} alt="wedding1" className="m-auto h-100" />
+              <img src={SliderItem5} alt="wedding1" className="m-auto h-100" />
             </div>
           </Slider>
         </div>

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "gotham-book";
+  src: url("./font/Gotham-Book.woff") format("woff"),
+    url("./font/Gotham-Book.woff2") format("woff2"),
+    url("./font/Gotham-Book.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gotham-medium";
+  src: url("./font/GothamMedium.otf");
+}
+
+@font-face {
+  font-family: "gotham-light";
+  src: url("./font/Gotham-Light.otf");
+}
+@font-face {
+  font-family: "gotham-bold";
+  src: url("./font/Gotham-Bold.otf");
+}
+
+.gotham-book {
+  font-family: gotham-book !important ;
+}
+.gotham-bold {
+  font-family: gotham-bold !important ;
+}
+.gotham-light {
+  font-family: gotham-light !important ;
+}
+.gotham-medium {
+  font-family: gotham-medium !important ;
+}
+
+.font-size-64 {
+  font-size: 60px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+.font-size-18 {
+  font-size: 18px !important;
+}
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-48 {
+  font-size: 48px;
+}
