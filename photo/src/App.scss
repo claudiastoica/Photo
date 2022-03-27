@@ -1,0 +1,11 @@
+.App {
+  background-color: rgb(247, 240, 230);
+  width: 100%;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.slick-slide,
+.slick-slide * {
+  outline: none;
+}

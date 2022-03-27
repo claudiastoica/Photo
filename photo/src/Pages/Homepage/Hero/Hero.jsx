@@ -12,6 +12,7 @@ import SliderItem5 from "../../../assets/Homepage/slider-item-5.jpg";
 export default function Hero() {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

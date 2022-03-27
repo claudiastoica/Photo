@@ -30,17 +30,6 @@ const Navigation = () => {
     btn.click();
   };
 
-  //   const [columnCollapseState, setColumnCollapseState] = useState(() => {
-  //     return {
-  //       openedFirst: true,
-  //     };
-  //   });
-  //   const handleAccordion = (value) => {
-  //     setColumnCollapseState({
-  //       [value]: !columnCollapseState[value],
-  //     });
-  //   };
-
   return (
     <Navbar
       collapseOnSelect
@@ -66,10 +55,10 @@ const Navigation = () => {
 
         <Navbar.Collapse
           id="responsive-navbar-nav"
-          className=" justify-content-center "
+          className=" justify-content-center"
         >
           <Nav className="">
-            <LinkContainer exact={true} to="/" onClick={handleCollapse}>
+            <LinkContainer to="/" onClick={handleCollapse}>
               <NavItem
                 className="font-size-20 exo-regular links-wrapper"
                 eventkey={"/"}
@@ -87,7 +76,6 @@ const Navigation = () => {
             </LinkContainer>
             <Dropdown
               as={ButtonGroup}
-              alignRight
               className="font-size-20 exo-regular nav-dropdown"
               id="basic-nav-dropdown"
             >

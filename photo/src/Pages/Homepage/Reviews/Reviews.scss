@@ -27,4 +27,20 @@
   .slick-list {
     height: 100%;
   }
+  .slick-slide {
+    div {
+      height: 100%;
+      .slider-item {
+        height: 100%;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 2rem;
+      }
+    }
+  }
+  .slick-track {
+    height: 100%;
+  }
 }

@@ -7,9 +7,7 @@ export default function Reviews() {
   const settings = {
     dots: true,
     infinite: true,
-    vertical: true,
     arrows: false,
-    verticalSwiping: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
