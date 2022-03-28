@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage/Homepage";
 import About from "./Pages/About/About";
-import Navbar from "./components/navbar/Navbar";
+import Navigation from "./components/navbar/Navigation";
 
 import "./App.scss";
 import Nunta from "./Pages/Nunta/Nunta";
@@ -14,7 +14,7 @@ import Oferte from "./Pages/Oferte/Oferte";
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      <Navigation />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />

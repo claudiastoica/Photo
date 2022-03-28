@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // style
-import "./Navbar.scss";
+import "./Navigation.scss";
 
 import {
   Navbar,
