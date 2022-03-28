@@ -9,6 +9,7 @@ import CununieCivila from "./Pages/CununieCivila/CununieCivila";
 import Botez from "./Pages/Botez/Botez";
 import SedintaFoto from "./Pages/SedintaFoto/SedintaFoto";
 import Diverse from "./Pages/Diverse/Diverse";
+import Oferte from "./Pages/Oferte/Oferte";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/botez" element={<Botez />} />
         <Route path="/sedinta-foto" element={<SedintaFoto />} />
         <Route path="/diverse" element={<Diverse />} />
+        <Route path="/oferte" element={<Oferte />} />
       </Routes>
     </div>
   );

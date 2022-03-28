@@ -83,7 +83,7 @@ const Navigation = () => {
                 split
                 variant="success"
                 id="dropdown-split-basic"
-                className="ml-1"
+                className="ml-1 font-size-20"
               >
                 {" "}
                 Albume
@@ -134,12 +134,12 @@ const Navigation = () => {
               </Dropdown.Menu>
             </Dropdown>
 
-            <LinkContainer to="/portofoliu" onClick={handleCollapse}>
+            <LinkContainer to="/oferte" onClick={handleCollapse}>
               <NavItem
                 className="font-size-20 exo-regular links-wrapper"
-                eventkey={"/portofoliu"}
+                eventkey={"/oferte"}
               >
-                Portofoliu
+                Oferte
               </NavItem>
             </LinkContainer>
 

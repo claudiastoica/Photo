@@ -1,6 +1,6 @@
 export const routes = {
-    home: "/",
-    xiden: "/about",
+  home: "/",
+  about: "/about",
 };
 
 // Object.freeze(routes);

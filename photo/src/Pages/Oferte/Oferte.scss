@@ -1,0 +1,51 @@
+.oferta-page {
+  padding-top: 100px;
+  height: 100%;
+
+  .main-container {
+    width: 1400px !important;
+  }
+
+  .oferta-page-description {
+    width: 80%;
+    // margin: auto;
+  }
+
+  .cards-oferte {
+    .cards-oferte-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card-oferta {
+        background-color: #fff;
+        margin-top: 24px;
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 500px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(202, 192, 157);
+        border-radius: 24px;
+        transition: transform 0.1s ease-in;
+        &:hover {
+          transform: scale(1.02);
+          cursor: pointer;
+        }
+
+        .oferte-btn {
+          background-color: rgb(247, 240, 230);
+          border: 1px solid rgb(253, 218, 168);
+          padding: 8px 40px;
+          border-radius: 24px;
+
+          &:hover {
+            background-color: rgb(253, 218, 168);
+          }
+        }
+      }
+    }
+  }
+}

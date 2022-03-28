@@ -1,8 +1,9 @@
 #navigation {
-  background-color: purple !important;
+  background-color: rgb(247, 240, 230) !important;
   //   border-bottom: 1px solid pink;
   height: 80px;
   width: 100%;
+  color: #000 !important;
 
   @media screen and (max-width: 1024px) {
     height: 90px;
@@ -34,23 +35,23 @@
 
   .navbar-toggler {
     * {
-      color: #fff;
+      color: #000;
     }
   }
 
   a {
-    color: #fff !important;
+    color: #000 !important;
     text-decoration: none;
   }
 
   .active {
-    border-bottom: 3px solid papayawhip !important;
+    border-bottom: 3px solid rgb(253, 218, 168) !important;
     pointer-events: none;
   }
 
   .dropdown-menu {
-    background-color: plum !important;
-    border: 1px solid azure;
+    background-color: rgb(247, 240, 230) !important;
+    border: 1px solid rgb(253, 218, 168);
 
     .links-wrapper.active {
       border-bottom: none !important;
@@ -97,6 +98,7 @@
     width: fit-content;
     padding-left: 5px;
     padding-right: 0;
+    color: #000;
 
     &::after {
       display: inline-block;
@@ -147,7 +149,7 @@
     align-items: center;
     margin-left: 32px;
     margin-right: 32px;
-    color: #fff;
+    color: #000;
   }
 
   .dropdown-item:hover {
@@ -163,7 +165,7 @@
     margin-right: 32px;
     padding: 0.5rem 0;
     cursor: pointer;
-    color: #fff !important;
+    color: #000 !important;
     display: flex;
     justify-content: flex-start;
     align-items: center;

@@ -1,12 +1,15 @@
 import React from "react";
 import "./Description.scss";
 
-// import Razva1 from "../../../assets/Homepage/razvan-1.jpg";
+import Razva2 from "../../../assets/About/razvan-2.jpg";
 
 export default function Description() {
   return (
     <section className="description-section py-5">
       <div className="main-container">
+        <div className="img-container text-center pb-5">
+          <img src={Razva2} alt="razvan" className="about-razvan" />
+        </div>
         <div className="description-container">
           <p className="font-size-22">
             ”Călătoria mea ca și fotograf a început în urmă cu 10 ani, pe vremea

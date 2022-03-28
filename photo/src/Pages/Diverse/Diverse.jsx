@@ -23,10 +23,10 @@ const Diverse = () => {
       <div className="main-container">
         <div className="text-center">
           <h2 className="font-size-64 gotham-bold custom-line-height py-4">
-            Sedinta Foto
+            Diverse
           </h2>
           <p className="font-size-24 custom-line-height pb-5">
-            ”Inapoi in timp !”
+            ”Capturing the moments”
           </p>
         </div>
 
