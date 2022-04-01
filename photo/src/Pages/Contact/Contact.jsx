@@ -1,13 +1,14 @@
 import React from "react";
-import "./Touch.scss";
+
+import "./Contact.scss";
 
 import { Row, Col } from "react-bootstrap";
 
-import Razva1 from "../../../assets/Homepage/razvan-1.jpg";
+import Razva1 from "../../assets/Homepage/razvan-1.jpg";
 
-export default function Touch() {
+export default function Contact() {
   return (
-    <section className="touch-section py-5">
+    <div className="contact-page">
       <div className="main-container">
         <Row>
           <Col lg={6}>
@@ -29,16 +30,21 @@ export default function Touch() {
                   de vis.
                 </p>
               </div>
-              <div className="contact-details pt-4">
+              <div className="contact-details border-bottom w-100 py-4">
                 <p className="font-size-32">DETALII DE CONTACT</p>
                 <p className="font-size-24 mb-0">contact@razvan.ro</p>
                 <p className="font-size-24 mb-0">+4 0735 872 995</p>
                 <p className="font-size-24 mb-0">București, România</p>
               </div>
+              <div className="socials-details w-100 py-4">
+                <p className="font-size-32">Follow me on: </p>
+                <p className="font-size-24 mb-0">Instagram</p>
+                <p className="font-size-24 mb-0">Facebook</p>
+              </div>
             </div>
           </Col>
         </Row>
       </div>
-    </section>
+    </div>
   );
 }

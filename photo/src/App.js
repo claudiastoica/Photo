@@ -10,6 +10,13 @@ import Botez from "./Pages/Botez/Botez";
 import SedintaFoto from "./Pages/SedintaFoto/SedintaFoto";
 import Diverse from "./Pages/Diverse/Diverse";
 import Oferte from "./Pages/Oferte/Oferte";
+import FAQ from "./Pages/FAQ/FAQ";
+import Contact from "./Pages/Contact/Contact";
+import OfertaNunta from "./Pages/Oferte/OfertaNunta/OfertaNunta";
+import OfertaBotez from "./Pages/Oferte/OferteBotez/OferteBotez";
+import OfertaCununie from "./Pages/Oferte/OferteCununie/OferteCununie";
+import OfertaSedinteFoto from "./Pages/Oferte/OferteSedinteFoto/OferteSedinteFoto";
+import OfertaSuplimentar from "./Pages/Oferte/OferteSuplimentar/OferteSuplimentar";
 
 const App = () => {
   return (
@@ -24,6 +31,15 @@ const App = () => {
         <Route path="/sedinta-foto" element={<SedintaFoto />} />
         <Route path="/diverse" element={<Diverse />} />
         <Route path="/oferte" element={<Oferte />} />
+        {/* oferte */}
+        <Route path="/oferta-nunta" element={<OfertaNunta />} />
+        <Route path="/oferta-botez" element={<OfertaBotez />} />
+        <Route path="/oferta-cununie" element={<OfertaCununie />} />
+        <Route path="/oferta-sedinta-foto" element={<OfertaSedinteFoto />} />
+        <Route path="/oferta-suplimentar" element={<OfertaSuplimentar />} />
+        {/*end oferte */}
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

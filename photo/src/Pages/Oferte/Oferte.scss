@@ -1,3 +1,4 @@
+@import "../../Template/colors.scss";
 .oferta-page {
   padding-top: 100px;
   height: 100%;
@@ -36,13 +37,13 @@
         }
 
         .oferte-btn {
-          background-color: rgb(247, 240, 230);
-          border: 1px solid rgb(253, 218, 168);
+          background-color: $principal-color;
+          border: 1px solid $border-color;
           padding: 8px 40px;
           border-radius: 24px;
 
           &:hover {
-            background-color: rgb(253, 218, 168);
+            background-color: $border-color;
           }
         }
       }

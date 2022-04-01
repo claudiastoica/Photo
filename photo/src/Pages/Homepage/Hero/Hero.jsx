@@ -14,7 +14,9 @@ export default function Hero() {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 500,
+    // fade: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };

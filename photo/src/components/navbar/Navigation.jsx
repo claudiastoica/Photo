@@ -55,7 +55,7 @@ const Navigation = () => {
 
         <Navbar.Collapse
           id="responsive-navbar-nav"
-          className=" justify-content-center"
+          className=" justify-content-end"
         >
           <Nav className="">
             <LinkContainer to="/" onClick={handleCollapse}>

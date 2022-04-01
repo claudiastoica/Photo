@@ -8,7 +8,9 @@ export default function Reviews() {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
+    // fade: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
