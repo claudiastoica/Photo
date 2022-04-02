@@ -1,189 +1,147 @@
-import n1 from "../../assets/Nunta/Nunta.jpg";
-import n2 from "../../assets/Nunta/Nunta1.jpg";
-import n3 from "../../assets/Nunta/Nunta2.jpg";
-import n4 from "../../assets/Nunta/Nunta3.jpg";
-import n5 from "../../assets/Nunta/Nunta4.jpg";
-import n6 from "../../assets/Nunta/Nunta5.jpg";
-import n7 from "../../assets/Nunta/Nunta6.jpg";
-import n8 from "../../assets/Nunta/Nunta7.jpg";
-import n9 from "../../assets/Nunta/Nunta8.jpg";
-import n10 from "../../assets/Nunta/Nunta9.jpg";
-import n11 from "../../assets/Nunta/Nunta10.jpg";
-import n12 from "../../assets/Nunta/Nunta11.jpg";
-import n13 from "../../assets/Nunta/Nunta12.jpg";
-import n14 from "../../assets/Nunta/Nunta13.jpg";
-import n15 from "../../assets/Nunta/Nunta14.jpg";
-import n16 from "../../assets/Nunta/Nunta15.jpg";
-import n17 from "../../assets/Nunta/Nunta16.jpg";
-import n18 from "../../assets/Nunta/Nunta17.jpg";
-// import n19 from "../../assets/Nunta/Nunta18.jpg";
-import n20 from "../../assets/Nunta/Nunta19.jpg";
-import n21 from "../../assets/Nunta/Nunta20.jpg";
-import n22 from "../../assets/Nunta/Nunta21.jpg";
-import n23 from "../../assets/Nunta/Nunta22.jpg";
-import n24 from "../../assets/Nunta/Nunta23.jpg";
-import n25 from "../../assets/Nunta/Nunta24.jpg";
-import n26 from "../../assets/Nunta/Nunta25.jpg";
-import n27 from "../../assets/Nunta/Nunta26.jpg";
-import n28 from "../../assets/Nunta/Nunta27.jpg";
-// import n29 from "../../assets/Nunta/Nunta28.jpg";
-import n30 from "../../assets/Nunta/Nunta29.jpg";
-// import n31 from "../../assets/Nunta/Nunta30.jpg";
+import d1 from "../../assets/Diverse/Diverse1.jpg";
+import d2 from "../../assets/Diverse/Diverse2.jpg";
+import d3 from "../../assets/Diverse/Diverse3.jpg";
+import d4 from "../../assets/Diverse/Diverse4.jpg";
+import d5 from "../../assets/Diverse/Diverse5.jpg";
+import d6 from "../../assets/Diverse/Diverse6.jpg";
+import d7 from "../../assets/Diverse/Diverse7.jpg";
+import d8 from "../../assets/Diverse/Diverse8.jpg";
+import d9 from "../../assets/Diverse/Diverse9.jpg";
+import d10 from "../../assets/Diverse/Diverse10.jpg";
+import d11 from "../../assets/Diverse/Diverse11.jpg";
+import d12 from "../../assets/Diverse/Diverse12.jpg";
+import d13 from "../../assets/Diverse/Diverse13.jpg";
+import d14 from "../../assets/Diverse/Diverse14.jpg";
+import d15 from "../../assets/Diverse/Diverse15.jpg";
+import d16 from "../../assets/Diverse/Diverse16.jpg";
+import d17 from "../../assets/Diverse/Diverse17.jpg";
+import d18 from "../../assets/Diverse/Diverse18.jpg";
+import d19 from "../../assets/Diverse/Diverse19.jpg";
+import d20 from "../../assets/Diverse/Diverse20.jpg";
+import d21 from "../../assets/Diverse/Diverse21.jpg";
+import d22 from "../../assets/Diverse/Diverse22.jpg";
+import d23 from "../../assets/Diverse/Diverse23.jpg";
+import d24 from "../../assets/Diverse/Diverse24.jpg";
 
 export const photos = [
   {
-    src: n1,
+    src: d1,
     width: 5,
     height: 3,
   },
   {
-    src: n2,
-    width: 4,
-    height: 5,
-  },
-  {
-    src: n3,
+    src: d2,
     width: 5,
     height: 3,
   },
   {
-    src: n4,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n5,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n6,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n7,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n8,
+    src: d3,
     width: 5,
     height: 3,
   },
   {
-    src: n9,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n10,
+    src: d4,
     width: 4,
     height: 3,
   },
   {
-    src: n11,
+    src: d5,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: d6,
     width: 2,
     height: 3,
   },
   {
-    src: n12,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n13,
-    width: 2,
-    height: 3,
-  },
-  {
-    src: n14,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n15,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n16,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n17,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n18,
-    width: 5,
-    height: 3,
-  },
-  // {
-  //   src: n19,
-  //   width: 4,
-  //   height: 3,
-  // },
-  {
-    src: n20,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n21,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n22,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n23,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n24,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n25,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n26,
-    width: 3,
-    height: 3,
-  },
-  {
-    src: n27,
+    src: d7,
     width: 4,
     height: 3,
   },
   {
-    src: n28,
-    width: 3,
-    height: 3,
-  },
-  // {
-  //   src: n29,
-  //   width: 2,
-  //   height: 3,
-  // },
-  {
-    src: n30,
+    src: d8,
     width: 2,
     height: 3,
   },
-  // {
-  //   src: n31,
-  //   width: 4,
-  //   height: 3,
-  // },
+  {
+    src: d9,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: d10,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d11,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d12,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d13,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d14,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: d15,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: d16,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d17,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: d18,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: d19,
+    width: 5,
+    height: 4,
+  },
+  {
+    src: d20,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: d21,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: d22,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: d23,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: d24,
+    width: 4,
+    height: 3,
+  },
 ];

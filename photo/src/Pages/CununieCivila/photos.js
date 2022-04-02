@@ -1,189 +1,183 @@
-import n1 from "../../assets/Nunta/Nunta.jpg";
-import n2 from "../../assets/Nunta/Nunta1.jpg";
-import n3 from "../../assets/Nunta/Nunta2.jpg";
-import n4 from "../../assets/Nunta/Nunta3.jpg";
-import n5 from "../../assets/Nunta/Nunta4.jpg";
-import n6 from "../../assets/Nunta/Nunta5.jpg";
-import n7 from "../../assets/Nunta/Nunta6.jpg";
-import n8 from "../../assets/Nunta/Nunta7.jpg";
-import n9 from "../../assets/Nunta/Nunta8.jpg";
-import n10 from "../../assets/Nunta/Nunta9.jpg";
-import n11 from "../../assets/Nunta/Nunta10.jpg";
-import n12 from "../../assets/Nunta/Nunta11.jpg";
-import n13 from "../../assets/Nunta/Nunta12.jpg";
-import n14 from "../../assets/Nunta/Nunta13.jpg";
-import n15 from "../../assets/Nunta/Nunta14.jpg";
-import n16 from "../../assets/Nunta/Nunta15.jpg";
-import n17 from "../../assets/Nunta/Nunta16.jpg";
-import n18 from "../../assets/Nunta/Nunta17.jpg";
-// import n19 from "../../assets/Nunta/Nunta18.jpg";
-import n20 from "../../assets/Nunta/Nunta19.jpg";
-import n21 from "../../assets/Nunta/Nunta20.jpg";
-import n22 from "../../assets/Nunta/Nunta21.jpg";
-import n23 from "../../assets/Nunta/Nunta22.jpg";
-import n24 from "../../assets/Nunta/Nunta23.jpg";
-import n25 from "../../assets/Nunta/Nunta24.jpg";
-import n26 from "../../assets/Nunta/Nunta25.jpg";
-import n27 from "../../assets/Nunta/Nunta26.jpg";
-import n28 from "../../assets/Nunta/Nunta27.jpg";
-// import n29 from "../../assets/Nunta/Nunta28.jpg";
-import n30 from "../../assets/Nunta/Nunta29.jpg";
-// import n31 from "../../assets/Nunta/Nunta30.jpg";
+import c1 from "../../assets/CununieCivila/Cununie1.jpg";
+import c2 from "../../assets/CununieCivila/Cununie2.jpg";
+import c3 from "../../assets/CununieCivila/Cununie3.jpg";
+import c4 from "../../assets/CununieCivila/Cununie4.jpg";
+import c5 from "../../assets/CununieCivila/Cununie5.jpg";
+import c6 from "../../assets/CununieCivila/Cununie6.jpg";
+import c7 from "../../assets/CununieCivila/Cununie7.jpg";
+import c8 from "../../assets/CununieCivila/Cununie8.jpg";
+import c9 from "../../assets/CununieCivila/Cununie9.jpg";
+import c10 from "../../assets/CununieCivila/Cununie10.jpg";
+import c11 from "../../assets/CununieCivila/Cununie11.jpg";
+import c12 from "../../assets/CununieCivila/Cununie12.jpg";
+import c13 from "../../assets/CununieCivila/Cununie13.jpg";
+import c14 from "../../assets/CununieCivila/Cununie14.jpg";
+import c15 from "../../assets/CununieCivila/Cununie15.jpg";
+import c16 from "../../assets/CununieCivila/Cununie16.jpg";
+import c17 from "../../assets/CununieCivila/Cununie17.jpg";
+import c18 from "../../assets/CununieCivila/Cununie18.jpg";
+import c19 from "../../assets/CununieCivila/Cununie19.jpg";
+import c20 from "../../assets/CununieCivila/Cununie20.jpg";
+import c21 from "../../assets/CununieCivila/Cununie21.jpg";
+import c22 from "../../assets/CununieCivila/Cununie22.jpg";
+import c23 from "../../assets/CununieCivila/Cununie23.jpg";
+import c24 from "../../assets/CununieCivila/Cununie24.jpg";
+import c25 from "../../assets/CununieCivila/Cununie25.jpg";
+import c26 from "../../assets/CununieCivila/Cununie26.jpg";
+import c27 from "../../assets/CununieCivila/Cununie27.jpg";
+import c28 from "../../assets/CununieCivila/Cununie28.jpg";
+import c29 from "../../assets/CununieCivila/Cununie29.jpg";
+import c30 from "../../assets/CununieCivila/Cununie30.jpg";
 
 export const photos = [
   {
-    src: n1,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n2,
-    width: 4,
-    height: 5,
-  },
-  {
-    src: n3,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n4,
+    src: c1,
     width: 4,
     height: 3,
   },
   {
-    src: n5,
+    src: c2,
     width: 4,
     height: 3,
   },
   {
-    src: n6,
+    src: c3,
     width: 4,
     height: 3,
   },
   {
-    src: n7,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n8,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n9,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n10,
-    width: 4,
-    height: 3,
-  },
-  {
-    src: n11,
+    src: c4,
     width: 2,
     height: 3,
   },
   {
-    src: n12,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n13,
-    width: 2,
-    height: 3,
-  },
-  {
-    src: n14,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n15,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n16,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n17,
-    width: 5,
-    height: 3,
-  },
-  {
-    src: n18,
-    width: 5,
-    height: 3,
-  },
-  // {
-  //   src: n19,
-  //   width: 4,
-  //   height: 3,
-  // },
-  {
-    src: n20,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n21,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n22,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n23,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n24,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n25,
-    width: 3,
-    height: 4,
-  },
-  {
-    src: n26,
-    width: 3,
-    height: 3,
-  },
-  {
-    src: n27,
+    src: c5,
     width: 4,
     height: 3,
   },
   {
-    src: n28,
-    width: 3,
+    src: c6,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: c7,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: c8,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c9,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: c10,
+    width: 5,
     height: 3,
   },
   // {
-  //   src: n29,
+  //   src: c11,
   //   width: 2,
   //   height: 3,
   // },
   {
-    src: n30,
+    src: c12,
     width: 2,
     height: 3,
   },
+  {
+    src: c13,
+    width: 4,
+    height: 3,
+  },
   // {
-  //   src: n31,
-  //   width: 4,
+  //   src: c14,
+  //   width: 5,
   //   height: 3,
   // },
+  {
+    src: c15,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c16,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c17,
+    width: 5,
+    height: 3,
+  },
+  // {
+  //   src: c18,
+  //   width: 5,
+  //   height: 3,
+  // },
+  {
+    src: c19,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c20,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c21,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c22,
+    width: 2,
+    height: 3,
+  },
+  {
+    src: c23,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: c24,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c25,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c26,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c27,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c28,
+    width: 5,
+    height: 3,
+  },
+  {
+    src: c29,
+    width: 3,
+    height: 3,
+  },
+  {
+    src: c30,
+    width: 3,
+    height: 3,
+  },
 ];
