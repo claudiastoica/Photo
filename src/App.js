@@ -22,7 +22,8 @@ const App = () => {
   return (
     <div className="App">
       <Navigation />
-      <Routes>
+      <Homepage />
+      {/* <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/nunta" element={<Nunta />} />
@@ -32,15 +33,15 @@ const App = () => {
         <Route path="/diverse" element={<Diverse />} />
         <Route path="/oferte" element={<Oferte />} />
         {/* oferte */}
-        <Route path="/oferta-nunta" element={<OfertaNunta />} />
+      {/* <Route path="/oferta-nunta" element={<OfertaNunta />} />
         <Route path="/oferta-botez" element={<OfertaBotez />} />
         <Route path="/oferta-cununie" element={<OfertaCununie />} />
         <Route path="/oferta-sedinta-foto" element={<OfertaSedinteFoto />} />
-        <Route path="/oferta-suplimentar" element={<OfertaSuplimentar />} />
-        {/*end oferte */}
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+        <Route path="/oferta-suplimentar" element={<OfertaSuplimentar />} /> */}
+      {/*end oferte */}
+      {/* <Route path="/faq" element={<FAQ />} />
+        <Route path="/contact" element={<Contact />} /> 
+      </Routes>  */}
     </div>
   );
 };
